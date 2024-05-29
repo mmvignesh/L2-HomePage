@@ -1,7 +1,7 @@
 @media screen and (max-width: 470px){
     body{
         max-width: 100%;
-        min-height: 100vh;
+        height: 100dvh;
         padding: 20px 30px;
         overflow-x: hidden;
         overflow-y: auto;
@@ -18,11 +18,11 @@
         margin-left: 0;
     }
     .mainSection{
-        margin-top: -15px;
         width: 100%;
         flex-direction: column;
     }
     .productDetails{
+        margin-top: -65px;
         width: 100%;
     }
     .productDetails .title{
