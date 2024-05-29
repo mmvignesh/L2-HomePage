@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+body{
+    height: 100vh;
+    padding: 30px 100px;
+    background: linear-gradient(105.54deg, #F24F4F -2.93%, #FFA895 72.14%);
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-inline: 50px;
+}
+.btn{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.mainSection{
+    position: relative;
+    top: 100px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.productDetails{
+    width: 60%;
+    color: white;
+    font-family: "Sofia Sans", sans-serif;
+    margin-top: -50px;
+}
+.productDetails .title{
+    font-size: 60px;
+}
+.productDetails .tag{
+    display: flex;
+    font-size: 25px;
+}
+.productDetails .tag .tag2{
+    color: black;
+}
+.productDetails .desc{
+    width: 80%;
+    margin-block: 50px 30px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.productDetails .price {
+    font-size: 50px;
+    font-weight: large;
+    font-family: 'Poppins', sans-serif;
+}
+.social-icons{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icons a{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.social-icons a img{
+    width: 20px;
+    height: 15px;
+}
+.social-icons a:nth-child(1) img{
+    width: 10px;
+    height: 17px;
+}
+.splide {
+    width: 40%;
+    text-align: center;
+    position: relative; 
+}
+
+.splide__slide img {
+    width: 300px;
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 50%; 
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.39));
+}
+
+.splide__track {
+    position: relative; 
+}
+
+.splide__arrow {
+    background-color: transparent;
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px; 
+    font-size: 28px; 
+    text-align: center; 
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    padding: 8px 5px 5px 5px;
+}
+.splide__arrow:hover {
+    cursor: pointer; 
+}
+
+.shadow{
+    width: 150px;
+    height: 20px;
+}
