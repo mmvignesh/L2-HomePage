@@ -1,0 +1,68 @@
+@media screen and (max-width: 470px){
+    body{
+        max-width: 100%;
+        min-height: 100vh;
+        padding: 20px 30px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    header{
+        text-align: center;
+    }
+    nav a{
+        display: none;
+    }
+    .btn{
+        padding: 10px 15px;
+        font-size: 13px;
+        margin-left: 0;
+    }
+    .mainSection{
+        position: relative;
+        top: 40px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .productDetails{
+        width: 100%;
+    }
+    .productDetails .title{
+        font-size: 45px;
+    }
+    .productDetails .tag{
+        display: flex;
+        font-size: 22px;
+    }
+    .productDetails .desc{
+        width: 100%;
+        margin-block: 20px 10px;
+        font-size: 14px;
+    }
+    .productDetails .price {
+        font-size: 35px;
+    }
+    .social-icons{
+        bottom: 10px;
+    }
+    .splide{
+        width: 80%;
+        margin-inline: auto;
+        margin-top: 30px
+    }
+    .splide__slide img {
+        width: 200px;
+        height: 220px;
+    }
+    .social-icons a{
+        height: 30px;
+        width: 30px;
+    }
+    .social-icons a img{
+        width: 16px;
+        height: 13px;
+    }
+    .social-icons a:nth-child(1) img{
+        width: 10px;
+        height: 15px;
+    }
+}
