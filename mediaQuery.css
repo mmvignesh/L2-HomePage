@@ -26,22 +26,22 @@
         width: 100%;
     }
     .productDetails .title{
-        font-size: 33px;
+        font-size: 28px;
     }
     .productDetails .tag{
         display: flex;
-        font-size: 19px;
+        font-size: 17px;
     }
     .productDetails .desc{
         width: 100%;
         margin-block: 20px 10px;
-        font-size: 14px;
+        font-size: 13px;
     }
     .productDetails .price {
         font-size: 35px;
     }
     .social-icons{
-        bottom: 10px;
+        bottom: 5px;
     }
     .splide{
         width: 95%;
@@ -51,6 +51,11 @@
     .splide__slide img {
         width: 200px;
         height: 220px;
+    }
+    .splide__arrow{
+        width: 30px;
+        height: 30px;
+        margin-inline: -10px;
     }
     .social-icons a{
         height: 30px;
