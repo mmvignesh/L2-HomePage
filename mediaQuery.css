@@ -30,7 +30,7 @@
     }
     .productDetails .tag{
         display: flex;
-        font-size: 17px;
+        font-size: 14px;
     }
     .productDetails .desc{
         width: 100%;
@@ -55,7 +55,7 @@
     .splide__arrow{
         width: 30px;
         height: 30px;
-        margin-inline: -10px;
+        margin-inline: -20px;
     }
     .social-icons a{
         height: 30px;
