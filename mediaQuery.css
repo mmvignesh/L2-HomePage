@@ -26,11 +26,11 @@
         width: 100%;
     }
     .productDetails .title{
-        font-size: 45px;
+        font-size: 33px;
     }
     .productDetails .tag{
         display: flex;
-        font-size: 22px;
+        font-size: 19px;
     }
     .productDetails .desc{
         width: 100%;
@@ -44,7 +44,7 @@
         bottom: 10px;
     }
     .splide{
-        width: 80%;
+        width: 95%;
         margin-inline: auto;
         margin-top: 30px
     }
